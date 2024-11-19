@@ -37,10 +37,8 @@ class ProximityView: UIView {
     
     @objc func tapGesture(_ sender: UITapGestureRecognizer) {
         let point = sender.location(in: self)
-        if point.x > 10 &&
-            point.x < UIScreen.main.bounds.width - 10 &&
-            point.y > 10 &&
-            point.y < UIScreen.main.bounds.height - 10 {
+        if point.x > minX && point.x < maxX &&
+            point.y > minY && point.y < maxy {
             originPoint = point
             setNeedsDisplay()
         }
@@ -51,7 +49,7 @@ class ProximityView: UIView {
         guard let originPoint else {
             return
         }
-    
+        
         let size = 15.0
         let centerX = originPoint.x - size / 2.0
         let centerY = originPoint.y - size / 2.0
@@ -61,6 +59,33 @@ class ProximityView: UIView {
         path.lineWidth = 3
         path.stroke()
         path.fill()
+    }
+    
+    var minX: Double {
+        10
+    }
+    
+    var maxX: Double {
+        UIScreen.main.bounds.width - minX
+    }
+    
+    var minY: Double {
+        10
+    }
+    
+    var maxy: Double {
+        UIScreen.main.bounds.height - minY
+    }
+    
+    var randomTouchPoint: CGPoint {
+        let randomX = Double.random(in: minX...maxX)
+        let randomY = Double.random(in: minY...maxy)
+        return CGPoint(x: randomX, y: randomY)
+    }
+    
+    func resetRendomPoint() {
+        originPoint = randomTouchPoint
+        setNeedsDisplay()
     }
 }
 
@@ -101,6 +126,9 @@ extension ProximityView {
         print(result)
         if result < 0.2 {
             Vibration.success.vibrate()
+            DispatchQueue.main.async {
+                self.resetRendomPoint()
+            }
         } else if result >= 0.2 && result <= 1 {
             Vibration.heavy.vibrate()
         } else if result <= 2 {
