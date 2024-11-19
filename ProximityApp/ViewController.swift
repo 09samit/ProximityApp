@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     
     func showInfoAlert() {
         let alert = UIAlertController(title: "Info", message: "Tap any where in the screen to start.", preferredStyle: .alert)
-        alert.addAction(.init(title: "Cancel", style: .cancel))
+        alert.addAction(.init(title: "OK", style: .cancel))
         present(alert, animated: true)
     }
 }

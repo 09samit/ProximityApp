@@ -99,14 +99,14 @@ extension ProximityView {
             result = absYDifference / differ
         }
         print(result)
-        if result < 0.1 {
+        if result < 0.2 {
             Vibration.success.vibrate()
-        } else if result >= 0.1 && result <= 1 {
+        } else if result >= 0.2 && result <= 1 {
             Vibration.heavy.vibrate()
         } else if result <= 2 {
             Vibration.medium.vibrate()
         } else if result <= 3 {
-            Vibration.light.vibrate()
+            Vibration.light .vibrate()
         } else if result == 4 {
             Vibration.soft.vibrate()
         } else {

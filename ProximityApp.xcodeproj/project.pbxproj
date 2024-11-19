@@ -3,36 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 56;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2860CF022CEC74A60066CE5F /* ProximityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2860CF002CEC74A60066CE5F /* ProximityView.swift */; };
+		2860CF032CEC74A60066CE5F /* Vibration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2860CF012CEC74A60066CE5F /* Vibration.swift */; };
+		28727D4F2CEC738A006FDC2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28727D4E2CEC738A006FDC2A /* AppDelegate.swift */; };
+		28727D512CEC738A006FDC2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28727D502CEC738A006FDC2A /* SceneDelegate.swift */; };
+		28727D532CEC738A006FDC2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28727D522CEC738A006FDC2A /* ViewController.swift */; };
+		28727D562CEC738A006FDC2A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 28727D552CEC738A006FDC2A /* Base */; };
+		28727D582CEC738B006FDC2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28727D572CEC738B006FDC2A /* Assets.xcassets */; };
+		28727D5B2CEC738B006FDC2A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 28727D5A2CEC738B006FDC2A /* Base */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		28DD8AC32CEBAF3A00CF09C6 /* ProximityApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProximityApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2860CF002CEC74A60066CE5F /* ProximityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProximityView.swift; sourceTree = "<group>"; };
+		2860CF012CEC74A60066CE5F /* Vibration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vibration.swift; sourceTree = "<group>"; };
+		28727D4B2CEC738A006FDC2A /* ProximityApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProximityApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28727D4E2CEC738A006FDC2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		28727D502CEC738A006FDC2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		28727D522CEC738A006FDC2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		28727D552CEC738A006FDC2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28727D572CEC738B006FDC2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28727D5A2CEC738B006FDC2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28727D5C2CEC738B006FDC2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		28DD8AD52CEBAF3C00CF09C6 /* Exceptions for "ProximityApp" folder in "ProximityApp" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 28DD8AC22CEBAF3A00CF09C6 /* ProximityApp */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		28DD8AC52CEBAF3A00CF09C6 /* ProximityApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				28DD8AD52CEBAF3C00CF09C6 /* Exceptions for "ProximityApp" folder in "ProximityApp" target */,
-			);
-			path = ProximityApp;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
-
 /* Begin PBXFrameworksBuildPhase section */
-		28DD8AC02CEBAF3A00CF09C6 /* Frameworks */ = {
+		28727D482CEC738A006FDC2A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,157 +41,140 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		28DD8ABA2CEBAF3A00CF09C6 = {
+		28727D422CEC738A006FDC2A = {
 			isa = PBXGroup;
 			children = (
-				28DD8AC52CEBAF3A00CF09C6 /* ProximityApp */,
-				28DD8AC42CEBAF3A00CF09C6 /* Products */,
+				28727D4D2CEC738A006FDC2A /* ProximityApp */,
+				28727D4C2CEC738A006FDC2A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		28DD8AC42CEBAF3A00CF09C6 /* Products */ = {
+		28727D4C2CEC738A006FDC2A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				28DD8AC32CEBAF3A00CF09C6 /* ProximityApp.app */,
+				28727D4B2CEC738A006FDC2A /* ProximityApp.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		28727D4D2CEC738A006FDC2A /* ProximityApp */ = {
+			isa = PBXGroup;
+			children = (
+				28727D4E2CEC738A006FDC2A /* AppDelegate.swift */,
+				28727D502CEC738A006FDC2A /* SceneDelegate.swift */,
+				2860CF002CEC74A60066CE5F /* ProximityView.swift */,
+				2860CF012CEC74A60066CE5F /* Vibration.swift */,
+				28727D522CEC738A006FDC2A /* ViewController.swift */,
+				28727D542CEC738A006FDC2A /* Main.storyboard */,
+				28727D572CEC738B006FDC2A /* Assets.xcassets */,
+				28727D592CEC738B006FDC2A /* LaunchScreen.storyboard */,
+				28727D5C2CEC738B006FDC2A /* Info.plist */,
+			);
+			path = ProximityApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		28DD8AC22CEBAF3A00CF09C6 /* ProximityApp */ = {
+		28727D4A2CEC738A006FDC2A /* ProximityApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28DD8AD62CEBAF3C00CF09C6 /* Build configuration list for PBXNativeTarget "ProximityApp" */;
+			buildConfigurationList = 28727D5F2CEC738B006FDC2A /* Build configuration list for PBXNativeTarget "ProximityApp" */;
 			buildPhases = (
-				28DD8ABF2CEBAF3A00CF09C6 /* Sources */,
-				28DD8AC02CEBAF3A00CF09C6 /* Frameworks */,
-				28DD8AC12CEBAF3A00CF09C6 /* Resources */,
+				28727D472CEC738A006FDC2A /* Sources */,
+				28727D482CEC738A006FDC2A /* Frameworks */,
+				28727D492CEC738A006FDC2A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				28DD8AC52CEBAF3A00CF09C6 /* ProximityApp */,
-			);
 			name = ProximityApp;
-			packageProductDependencies = (
-			);
 			productName = ProximityApp;
-			productReference = 28DD8AC32CEBAF3A00CF09C6 /* ProximityApp.app */;
+			productReference = 28727D4B2CEC738A006FDC2A /* ProximityApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		28DD8ABB2CEBAF3A00CF09C6 /* Project object */ = {
+		28727D432CEC738A006FDC2A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1600;
-				LastUpgradeCheck = 1600;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					28DD8AC22CEBAF3A00CF09C6 = {
-						CreatedOnToolsVersion = 16.0;
+					28727D4A2CEC738A006FDC2A = {
+						CreatedOnToolsVersion = 15.4;
 					};
 				};
 			};
-			buildConfigurationList = 28DD8ABE2CEBAF3A00CF09C6 /* Build configuration list for PBXProject "ProximityApp" */;
+			buildConfigurationList = 28727D462CEC738A006FDC2A /* Build configuration list for PBXProject "ProximityApp" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 28DD8ABA2CEBAF3A00CF09C6;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
-			productRefGroup = 28DD8AC42CEBAF3A00CF09C6 /* Products */;
+			mainGroup = 28727D422CEC738A006FDC2A;
+			productRefGroup = 28727D4C2CEC738A006FDC2A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				28DD8AC22CEBAF3A00CF09C6 /* ProximityApp */,
+				28727D4A2CEC738A006FDC2A /* ProximityApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		28DD8AC12CEBAF3A00CF09C6 /* Resources */ = {
+		28727D492CEC738A006FDC2A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28727D582CEC738B006FDC2A /* Assets.xcassets in Resources */,
+				28727D5B2CEC738B006FDC2A /* Base in Resources */,
+				28727D562CEC738A006FDC2A /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		28DD8ABF2CEBAF3A00CF09C6 /* Sources */ = {
+		28727D472CEC738A006FDC2A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28727D532CEC738A006FDC2A /* ViewController.swift in Sources */,
+				28727D4F2CEC738A006FDC2A /* AppDelegate.swift in Sources */,
+				2860CF022CEC74A60066CE5F /* ProximityView.swift in Sources */,
+				2860CF032CEC74A60066CE5F /* Vibration.swift in Sources */,
+				28727D512CEC738A006FDC2A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		28727D542CEC738A006FDC2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28727D552CEC738A006FDC2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28727D592CEC738B006FDC2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28727D5A2CEC738B006FDC2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		28DD8AD72CEBAF3C00CF09C6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8SS5HN6D42;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ProximityApp/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hexa.ProximityApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		28DD8AD82CEBAF3C00CF09C6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8SS5HN6D42;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ProximityApp/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hexa.ProximityApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		28DD8AD92CEBAF3C00CF09C6 /* Debug */ = {
+		28727D5D2CEC738B006FDC2A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -244,7 +226,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -255,7 +237,7 @@
 			};
 			name = Debug;
 		};
-		28DD8ADA2CEBAF3C00CF09C6 /* Release */ = {
+		28727D5E2CEC738B006FDC2A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -301,7 +283,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -311,28 +293,82 @@
 			};
 			name = Release;
 		};
+		28727D602CEC738B006FDC2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8SS5HN6D42;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ProximityApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hexa.ProximityApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28727D612CEC738B006FDC2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8SS5HN6D42;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ProximityApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hexa.ProximityApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		28DD8ABE2CEBAF3A00CF09C6 /* Build configuration list for PBXProject "ProximityApp" */ = {
+		28727D462CEC738A006FDC2A /* Build configuration list for PBXProject "ProximityApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				28DD8AD92CEBAF3C00CF09C6 /* Debug */,
-				28DD8ADA2CEBAF3C00CF09C6 /* Release */,
+				28727D5D2CEC738B006FDC2A /* Debug */,
+				28727D5E2CEC738B006FDC2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		28DD8AD62CEBAF3C00CF09C6 /* Build configuration list for PBXNativeTarget "ProximityApp" */ = {
+		28727D5F2CEC738B006FDC2A /* Build configuration list for PBXNativeTarget "ProximityApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				28DD8AD72CEBAF3C00CF09C6 /* Debug */,
-				28DD8AD82CEBAF3C00CF09C6 /* Release */,
+				28727D602CEC738B006FDC2A /* Debug */,
+				28727D612CEC738B006FDC2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 28DD8ABB2CEBAF3A00CF09C6 /* Project object */;
+	rootObject = 28727D432CEC738A006FDC2A /* Project object */;
 }
